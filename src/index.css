@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 43 38% 98%;
+    --foreground: 30 10% 15%;
+
+    --card: 43 38% 98%;
+    --card-foreground: 30 10% 15%;
+
+    --popover: 43 38% 98%;
+    --popover-foreground: 30 10% 15%;
+
+    --primary: 25 70% 27%;
+    --primary-foreground: 43 38% 98%;
+
+    --secondary: 30 25% 46%;
+    --secondary-foreground: 43 38% 98%;
+
+    --muted: 30 10% 92%;
+    --muted-foreground: 30 10% 40%;
+
+    --accent: 30 50% 45%;
+    --accent-foreground: 43 38% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 43 38% 98%;
+
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 25 70% 27%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 30 10% 15%;
+    --foreground: 43 38% 98%;
+
+    --card: 30 15% 18%;
+    --card-foreground: 43 38% 98%;
+
+    --popover: 30 15% 18%;
+    --popover-foreground: 43 38% 98%;
+
+    --primary: 25 70% 40%;
+    --primary-foreground: 43 38% 98%;
+
+    --secondary: 30 25% 35%;
+    --secondary-foreground: 43 38% 98%;
+
+    --muted: 30 15% 25%;
+    --muted-foreground: 30 10% 70%;
+
+    --accent: 30 50% 35%;
+    --accent-foreground: 43 38% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 43 38% 98%;
+
+    --border: 30 15% 25%;
+    --input: 30 15% 25%;
+    --ring: 30 50% 45%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.product-card-hover {
+  @apply transition-transform duration-300 hover:scale-105;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 15px -3px rgba(60, 42, 33, 0.1), 0 4px 6px -2px rgba(60, 42, 33, 0.05);
+}
