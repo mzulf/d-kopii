@@ -2,14 +2,14 @@ import { Product } from "@/components/ProductCard";
 
 // Import semua gambar secara langsung
 import acehGayo from "@/components/assets/products/aceh-gayo.jpg";
-import baliKintamani from "@/components/assets/products/bali-kintamani.jpg";
+import baliKintamani from "@/components/assets/products/Bali-Kintamani.jpg";
 import javaRobusta from "@/components/assets/products/java-robusta.jpg";
 import sumatraMandheling from "@/components/assets/products/sumatramandheling.webp";
 import torajaSapan from "@/components/assets/products/toraja-sapan.jpg";
 import floresBajawa from "@/components/assets/products/kopi-flores-bajawa.jpeg";
 import papuaWamena from "@/components/assets/products/papua-wamena.jpg";
 import lampungRobusta from "@/components/assets/products/lampung-robusta.jpeg";
-import luwakPremium from "@/components/assets/products/luwak.jpg";
+import luwakPremium from "@/components/assets/products/Luwak.jpg";
 import javaPreanger from "@/components/assets/products/java-preanger.jpg";
 import acehUleeKareng from "@/components/assets/products/aceh-ulee-kareng.jpg";
 import baliOrganic from "@/components/assets/products/bali-organic.jpeg";
